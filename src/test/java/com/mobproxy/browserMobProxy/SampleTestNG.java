@@ -25,7 +25,8 @@ import net.lightbody.bmp.proxy.CaptureType;
 public class SampleTestNG 
 {
 	WebDriver driver;
-	String exePath = System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe";
+	String path = System.getProperty("user.dir");
+	String exePath = path+"\\Drivers\\chromedriver.exe";
 	public static BrowserMobProxyServer server;
 	String sFileName = "F:/SeleniumEasy.har";
 
@@ -63,7 +64,7 @@ public class SampleTestNG
 		driver.get("https://www.google.com");
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         //The below method will save the screen shot in d drive with name "screenshot.png"
-        FileUtils.copyFile(scrFile, new File("F:\\screenshot.png"));
+        FileUtils.copyFile(scrFile, new File(path+"\\screenshot.png"));
 	}
 	
 	@AfterClass

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample" duration-ms="81871" started-at="2017-12-30T15:19:22Z" finished-at="2017-12-30T15:20:44Z">
+  <suite name="Sample" duration-ms="175021" started-at="2017-12-31T15:48:18Z" finished-at="2017-12-31T15:51:13Z">
     <groups>
     </groups>
-    <test name="Sample" duration-ms="81871" started-at="2017-12-30T15:19:22Z" finished-at="2017-12-30T15:20:44Z">
+    <test name="Sample" duration-ms="175021" started-at="2017-12-31T15:48:18Z" finished-at="2017-12-31T15:51:13Z">
       <class name="com.mobproxy.browserMobProxy.SampleTestNG">
-        <test-method status="PASS" signature="dataSetup()[pri:0, instance:com.mobproxy.browserMobProxy.SampleTestNG@1e46e8f]" name="dataSetup" is-config="true" duration-ms="122" started-at="2017-12-30T20:49:22Z" finished-at="2017-12-30T20:49:23Z">
+        <test-method status="PASS" signature="dataSetup()[pri:0, instance:com.mobproxy.browserMobProxy.SampleTestNG@837a77]" name="dataSetup" is-config="true" duration-ms="34" started-at="2017-12-31T21:18:18Z" finished-at="2017-12-31T21:18:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataSetup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.mobproxy.browserMobProxy.SampleTestNG@1e46e8f]" name="test" duration-ms="75618" started-at="2017-12-30T20:49:23Z" finished-at="2017-12-30T20:50:38Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.mobproxy.browserMobProxy.SampleTestNG@837a77]" name="test" duration-ms="165941" started-at="2017-12-31T21:18:18Z" finished-at="2017-12-31T21:21:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.mobproxy.browserMobProxy.SampleTestNG@1e46e8f]" name="quit" is-config="true" duration-ms="5663" started-at="2017-12-30T20:50:38Z" finished-at="2017-12-30T20:50:44Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.mobproxy.browserMobProxy.SampleTestNG@837a77]" name="quit" is-config="true" duration-ms="8625" started-at="2017-12-31T21:21:04Z" finished-at="2017-12-31T21:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
