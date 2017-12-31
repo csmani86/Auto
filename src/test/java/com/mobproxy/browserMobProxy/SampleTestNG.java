@@ -28,7 +28,7 @@ public class SampleTestNG
 	String path = System.getProperty("user.dir");
 	String exePath = path+"\\Drivers\\chromedriver.exe";
 	public static BrowserMobProxyServer server;
-	String sFileName = "F:/SeleniumEasy.har";
+	String sFileName = path+"/SeleniumEasy.har";
 
 	
 	@BeforeClass
@@ -65,6 +65,7 @@ public class SampleTestNG
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         //The below method will save the screen shot in d drive with name "screenshot.png"
         FileUtils.copyFile(scrFile, new File(path+"\\screenshot.png"));
+        System.out.println(" Screen Shot Location -----" + path+"\\screenshot.png");
 	}
 	
 	@AfterClass
@@ -74,7 +75,7 @@ public class SampleTestNG
 		File harFile = new File(sFileName);
 		try 
 		{
-			
+			System.out.println(" HAR FILE Location -----" + sFileName);
 			har.writeTo(harFile);
 		} 
 		catch (IOException ex) 
