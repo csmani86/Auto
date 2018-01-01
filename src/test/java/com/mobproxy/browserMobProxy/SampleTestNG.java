@@ -47,6 +47,7 @@ public class SampleTestNG
 		Proxy selPro = ClientUtil.createSeleniumProxy(server);
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
+		options.addArguments("--ignore-certificate-errors");
 		options.addArguments("disable-infobars");
 		options.setCapability(CapabilityType.PROXY, selPro);
 		options.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);
